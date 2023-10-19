@@ -12,7 +12,7 @@ const randomDice = () => {
 
 
 const rollDice = (random) => {
-    dice.style.animation = 'rolling 4s';
+    dice.style.animation = 'rolling infinite 4s';
     setTimeout(() => {
         switch (random) {
             case 1: dice.style.transform =
